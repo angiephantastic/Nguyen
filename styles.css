@@ -2,10 +2,16 @@
     border: 2px solid;
     margin: 20%;
     text-align: center;
-    margin-top: 100%; /*this makes the page open directly at the about section*/
+    margin-top: 80%;
   }
 
-#navbar{
+  nav{
     border: 2px solid;
-    align-items: right;
-}
+    overflow: hidden;/*this wraps the nav container around the buttons*/
+    padding-left: 74%;
+    /*can also float button to the right but their position gets mirrored*/
+  }
+
+  nav button{
+    margin: 1px;
+  }
