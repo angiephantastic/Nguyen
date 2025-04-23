@@ -2,5 +2,10 @@
     border: 2px solid;
     margin: 20%;
     text-align: center;
-    margin-top: 200%;
+    margin-top: 100%; /*this makes the page open directly at the about section*/
   }
+
+#navbar{
+    border: 2px solid;
+    align-items: right;
+}
