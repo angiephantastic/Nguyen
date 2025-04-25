@@ -1,17 +1,32 @@
+body{
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200923/pngtree-elegant-and-fresh-pink-watercolor-smudge-background-image_399308.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 #welcome-section{
     border: 2px solid;
     margin: 20%;
     text-align: center;
-    margin-top: 80%;
+    margin-top: 25%;
+    background-color: #FDC5D8;
+    border-radius: 25px;
+    border-color: #FD3083;
   }
 
   nav{
-    border: 2px solid;
-    overflow: hidden;/*this wraps the nav container around the buttons*/
-    padding-left: 74%;
-    /*can also float button to the right but their position gets mirrored*/
+    display:flex; 
+    justify-content: flex-end;
   }
 
   nav button{
     margin: 1px;
+    background-color:  #fdffab;
+    border-radius: 25px;
+    border-color: #FD3083;
+    padding: 8px;
+  }
+
+  nav button:hover{
+    background-color:#FDC5D8;
   }
