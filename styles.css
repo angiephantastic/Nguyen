@@ -32,3 +32,8 @@ body{
   nav button:hover{
     background-color:#FDC5D8;
   }
+
+  hr{
+    background-color:#FD3083;
+    border-color: #FD3083;
+  }
