@@ -12,6 +12,7 @@ body{
     background-color: #FDC5D8;
     border-radius: 25px;
     border-color: #FD3083;
+    color: #004a2f;
   }
 
   nav{
@@ -25,6 +26,7 @@ body{
     border-radius: 25px;
     border-color: #FD3083;
     padding: 8px;
+    color: #004a2f;;
   }
 
   nav button:hover{
