@@ -4,6 +4,16 @@ body{
   background-repeat: no-repeat;
 }
 
+#profile-pic{
+  height: 100px;
+  width: auto;
+}
+
+main{
+  border: 2px solid;
+  display: grid; 
+}
+
 #welcome-section{
     border: 2px solid;
     margin: 20%;
