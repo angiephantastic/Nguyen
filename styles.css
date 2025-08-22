@@ -6,24 +6,37 @@ body{
 
 #profile-pic{
   height: 100px;
-  width: auto;
+  margin-top: 10%;
 }
+
+#welcome-section{grid-area: boxOne;}
+#intro{grid-area: boxTwo;}
+#skills{grid-area: boxThree;}
+#hobbies{grid-area: boxFour;}
+#certs{grid-area: boxFive;}
 
 main{
-  border: 2px solid;
   display: grid; 
+  grid-template:
+  "boxOne boxTwo boxTwo"
+  "boxThree boxThree boxThree"
+  "boxFour boxFour boxFive";
 }
 
-#welcome-section{
+main > section{
     border: 2px solid;
-    margin: 20%;
+    margin:10%;
+    padding: 3%;
     text-align: center;
-    margin-top: 25%;
     background-color: #FDC5D8;
     border-radius: 25px;
     border-color: #FD3083;
     color: #004a2f;
   }
+
+section > h1{
+  text-align: left;
+}
 
   nav{
     display:flex; 
