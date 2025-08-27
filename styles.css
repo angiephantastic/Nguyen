@@ -17,10 +17,11 @@ body{
 
 main{
   display: grid; 
-  grid-template:
+  grid-template-areas:
   "boxOne boxTwo boxTwo"
   "boxThree boxThree boxThree"
   "boxFour boxFour boxFive";
+  grid-template-columns: 1fr 2fr;
 }
 
 main > section{
