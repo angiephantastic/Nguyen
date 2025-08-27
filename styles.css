@@ -6,7 +6,6 @@ body{
 
 #profile-pic{
   height: 150px;
-  margin-top: 10%;
 }
 
 #welcome-section{grid-area: boxOne;}
@@ -21,27 +20,18 @@ main{
   "boxOne boxTwo boxTwo"
   "boxThree boxThree boxThree"
   "boxFour boxFour boxFive";
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 main > section{
     border: 2px solid;
     margin:10%;
     padding: 3%;
-    text-align: center;
     background-color: #FDC5D8;
     border-radius: 25px;
     border-color: #FD3083;
     color: #004a2f;
   }
-
-section > h1{
-  text-align: left;
-}
-
-section > ul{
-  text-align: left;
-}
 
   nav{
     display:flex; 
