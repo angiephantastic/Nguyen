@@ -8,13 +8,14 @@ body{
   height: 150px;
 }
 
-#welcome-section{grid-area: boxOne;}
+#welcome-section{grid-area: boxOne;text-align: center;}
 #intro{grid-area: boxTwo;}
 #skills{grid-area: boxThree;}
 #hobbies{grid-area: boxFour;}
-#certs{grid-area: boxFive;}
+#certs{grid-area: boxFive;text-align: center;}
 
 main{
+  align-items: center;
   display: grid; 
   grid-template-areas:
   "boxOne boxTwo boxTwo"
